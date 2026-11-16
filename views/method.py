@@ -15,7 +15,7 @@ def render() -> None:
         "Data & method",
         "How the analysis was done",
         "The data, the cleaning decisions and what the data can and cannot answer. The full Python work, "
-        f'including the original Dash dashboard, is in the <a href="{NOTEBOOK_URL}" target="_blank">original notebook</a>.',
+        f'including the original Dash dashboard, is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a> (updated with the corrections described here).',
     )
 
     section("The data")
@@ -37,7 +37,7 @@ def render() -> None:
         ("Missing prices", f"{m['missing_price_rows']} rows without a sale price", "Dropped (too few to matter)"),
         ("Neighbourhood names", f"{m['names_with_trailing_space']} names had a trailing space "
          "(\"Downtown \"), so they did not match the coordinates file", "Spaces removed"),
-        ("Joining coordinates", "The notebook placed the two tables side by side by row position",
+        ("Joining coordinates", "The first version placed the two tables side by side by row position",
          "Joined by neighbourhood name, so a missing or extra neighbourhood can never shift the rows. (On this data "
          "the positional join happened to line up.)"),
         ("Outliers", "Some very high prices (up to $2,259 per sq ft)", "Kept: they are real sales, and the median is "
@@ -57,7 +57,7 @@ def render() -> None:
 
     section("How this app is built")
     md("Python, pandas and Plotly in a Streamlit app; the map uses Plotly's MapLibre maps with CARTO tiles (no API "
-       "key). The notebook's Dash dashboard (tabs for units, rent, prices and the map) is replaced by these pages. "
+       "key). The notebook's Dash dashboard (tabs for units, rent, prices and the map) is turned into these pages. "
        f"`build_data.py` cleans the CSVs once into Parquet files that ship with the app. Data built on {m['built']}.")
 
     footer()

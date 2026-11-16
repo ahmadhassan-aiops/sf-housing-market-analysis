@@ -1,7 +1,7 @@
 # San Francisco housing, 2010-2016: where should a rental investor look?
 
 An interactive presentation of an exploratory data analysis by **Ahmad Hassan** (AI Engineer), replacing the
-original notebook's Dash dashboard. Seven years of San Francisco census figures: sale price per square foot by
+notebook's Dash dashboard. Seven years of San Francisco census figures: sale price per square foot by
 neighbourhood, citywide housing units and gross rent.
 
 - **Key findings**: rents tripled while prices rose about 90% and supply barely moved; what it means for investors.
@@ -10,7 +10,7 @@ neighbourhood, citywide housing units and gross rent.
 - **Map**: price per square foot by neighbourhood, per year.
 - **Data & method**: cleaning decisions and what the data can't answer.
 
-Original notebook: [AIOPS-Portfolio-Projects / San Francisco housing rental analysis](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/San%20Francisco%20housing%20rental%20analysis)
+Notebook (updated with the corrections described in the app): [AIOPS-Portfolio-Projects / San Francisco housing rental analysis](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/San%20Francisco%20housing%20rental%20analysis)
 
 ## Run locally
 

@@ -1,6 +1,6 @@
 """
 San Francisco housing market 2010-2016: where prices and rents went, neighbourhood by neighbourhood.
-An interactive presentation of Ahmad Hassan's analysis (replaces the notebook's Dash dashboard).
+An interactive presentation of Ahmad Hassan's analysis (an interactive version of the notebook's Dash dashboard).
 """
 
 import streamlit as st

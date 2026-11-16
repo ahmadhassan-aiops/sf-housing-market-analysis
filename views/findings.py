@@ -81,7 +81,7 @@ def render() -> None:
         "neighbourhoods with this data. See Data & method.")
     with st.container(border=True):
         md("**How this was done.** The census table was cleaned, summarised per year and per neighbourhood, and "
-           "joined with neighbourhood coordinates for the map. This app replaces the notebook's Dash dashboard.")
+           "joined with neighbourhood coordinates for the map. This app is an interactive version of the notebook's Dash dashboard.")
         st.page_link(METHOD, label="Data & method", icon=":material/arrow_forward:")
 
     footer()
