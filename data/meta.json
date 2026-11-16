@@ -1,0 +1,21 @@
+{
+  "built": "2026-11-17",
+  "raw_shape": [
+    397,
+    5
+  ],
+  "rows": 392,
+  "neighborhoods": 73,
+  "years": [
+    2010,
+    2016
+  ],
+  "names_with_trailing_space": 4,
+  "missing_price_rows": 5,
+  "duplicates": 0,
+  "citywide_constant_per_year": true,
+  "units_step": [
+    1947.0
+  ],
+  "coords_without_data": 0
+}
