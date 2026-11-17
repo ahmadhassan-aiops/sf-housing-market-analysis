@@ -1,5 +1,7 @@
 # San Francisco housing, 2010-2016: where should a rental investor look?
 
+**Live app:** [sf-housing-market-analysis.streamlit.app](https://sf-housing-market-analysis.streamlit.app/) · **Notebook and project folder:** [AIOPS-Portfolio-Projects](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/San%20Francisco%20housing%20rental%20analysis)
+
 An interactive presentation of an exploratory data analysis by **Ahmad Hassan** (AI Engineer), replacing the
 notebook's Dash dashboard. Seven years of San Francisco census figures: sale price per square foot by
 neighbourhood, citywide housing units and gross rent.
