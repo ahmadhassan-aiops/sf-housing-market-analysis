@@ -15,7 +15,7 @@ def render() -> None:
         "Data & method",
         "How the analysis was done",
         "The data, the cleaning decisions and what the data can and cannot answer. The full Python work, "
-        f'including the original Dash dashboard, is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a> (updated with the corrections described here).',
+        f'including the original Dash dashboard, is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a>.',
     )
 
     section("The data")
@@ -37,9 +37,8 @@ def render() -> None:
         ("Missing prices", f"{m['missing_price_rows']} rows without a sale price", "Dropped (too few to matter)"),
         ("Neighbourhood names", f"{m['names_with_trailing_space']} names had a trailing space "
          "(\"Downtown \"), so they did not match the coordinates file", "Spaces removed"),
-        ("Joining coordinates", "The first version placed the two tables side by side by row position",
-         "Joined by neighbourhood name, so a missing or extra neighbourhood can never shift the rows. (On this data "
-         "the positional join happened to line up.)"),
+        ("Joining coordinates", "Prices and coordinates are in separate files",
+         "Joined by neighbourhood name, so a missing or extra neighbourhood can never shift the rows"),
         ("Outliers", "Some very high prices (up to $2,259 per sq ft)", "Kept: they are real sales, and the median is "
          "shown next to the mean"),
         ("Duplicates", f"{m['duplicates']} in this version of the file", "Removed if present"),

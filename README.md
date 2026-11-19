@@ -12,7 +12,7 @@ neighbourhood, citywide housing units and gross rent.
 - **Map**: price per square foot by neighbourhood, per year.
 - **Data & method**: cleaning decisions and what the data can't answer.
 
-Notebook (updated with the corrections described in the app): [AIOPS-Portfolio-Projects / San Francisco housing rental analysis](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/San%20Francisco%20housing%20rental%20analysis)
+Notebook: [AIOPS-Portfolio-Projects / San Francisco housing rental analysis](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/San%20Francisco%20housing%20rental%20analysis)
 
 ## Run locally
 
